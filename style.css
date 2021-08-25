@@ -1,0 +1,115 @@
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: url("image/greek-vase.png");
+    background-color: rgb(194, 172, 172);
+    color:#660000;
+}
+
+.nav-link{
+    color:#660000;
+}
+.title1{
+    padding: 180px 0 180px 0;
+    color:#660000;
+}
+
+.Doc-text{
+    padding:40px; 
+    margin:40px 0 0 0; 
+    background-color: #660000; 
+    color:white; 
+   
+}
+
+.Doc-img{
+    margin: 40px 0 0 0;
+    position: relative;
+}
+
+
+.bat-icon{
+padding: 70px 120px 0 0;
+
+
+}
+
+.img1{
+    width:360px;
+}
+
+p{
+    font-family: 'Urbanist', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.service-icon{
+    font-size: 100px;
+    text-align: center;
+    color:#660000;
+}
+
+
+i:hover{
+
+    color: black;
+}
+.service-text{
+    margin:2rem;
+
+}
+
+.logo{
+    
+    font-size: 150px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bat-icon {
+      /* display: inline;
+      font-size: 100px; */
+      display: none;
+
+    }
+    .small{
+        display:none;
+    } 
+    .Doc-img{
+        display: none;
+    }
+ 
+    .title1{
+        padding: 0px;
+    }
+  }
+
+  .col-sm-3 i{
+      font-size: 40px;
+  }
+
+
+  h2{
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.testimonial-image{
+ 
+  /* Full height */
+  width: 50px;
+
+
+}
+
+/* .shadow-box p:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+

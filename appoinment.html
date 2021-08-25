@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="appoinment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Urbanist:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- navigation bar     -->
+     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(194, 172, 172)0;color:#660000;">
+        <a class="navbar-brand" href="#"  style="color:#660000;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                     <a class="nav-link" href="start.html" style="color: #660000;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hours" style="color:#660000;">Opening Hours</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="#hours" style="color:#660000;">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Book an Appoinment</h2><hr>
+        <p>Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. 
+            It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved.
+            It originally comes from a Latin text, but to today's reader, it's seen as gibberish. Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. 
+            It helps designers plan out where the content will sit, without needing to wait forhe content to be written and approved.
+            It originally comes from a Latin text, but to today's reader, it's seen as gibberish.</p>
+        <div class="row">
+            <div class="col-lg-8" style="margin: 10px 0 100px 0; align-items: center;">
+                <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+                    <fieldset>
+                      <legend>Your Details:</legend>
+                      <label>
+                        Name
+                        <input type="text" name="name" required>
+                      </label>
+                      <div class="two-cols">
+                        <label>
+                          Email address
+                          <input type="email" name="email" required>
+                        </label>
+                        <label>
+                          Phone number
+                          <input type="tel" name="phone">
+                        </label>
+                      </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Your Pet Details:</legend>
+                        <label>
+                          Name
+                          <input type="text" name="name" required>
+                        </label>
+                        <br>
+                        <div class="two-cols">
+                            <label>
+                              Type
+                              <input type="email" name="email" required>
+                            </label>
+                            <label>
+                              Age
+                              <input type="text" name="phone">
+                            </label>
+                          </div>
+                          <br>
+                          <label >
+                              Message
+                              <textarea name="" id="" cols="50" rows="4"></textarea>
+                          </label>
+                          
+
+                       
+                      </fieldset>
+
+                    <fieldset>
+                      <legend>Appointment request</legend>
+                      <div class="two-cols">
+                        <label>
+                          Datum
+                          <input type="date" name="Appointment request" required>
+                        </label>
+                        <div class="inline">
+                          <label>
+                            <input type="hidden" name="Morning desired" value="no">
+                            <input type="checkbox" name="Morning desired" value="yes">
+                            Morning
+                          </label>
+                          <label>
+                            <input type="hidden" name="Afternoon desired" value="no">
+                            <input type="checkbox" name="Afternoon desired" value="yes">
+                            Afternoon
+                          </label>
+                        </div>
+                      </div>
+                      <blockquote> Confirmation requested by</blockquote>
+                      <div class="inline">
+                        <label>
+                          <input type="radio" name="Confirmation requested by" value="email" checked>
+                          Email
+                        </label>
+                        <label>
+                          <input type="radio" name="Confirmation requested by" value="phone">
+                          Phone call
+                        </label>
+                      </div>
+                    </fieldset>
+                    <div class="btns">
+                      <input type="text" name="_gotcha" value="" style="display:none;">
+                      <input type="submit" value="Submit request">
+                    </div>
+                  </form>
+            </div>      
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid" style="background-color: #fff;">
+        <div class="row" style="margin-top: 80px; padding-bottom: 4rem; padding-top: 2rem;">
+                <div class="col-lg-6" >
+                    <div class="logo">
+                        <i class="fa fa-bath" aria-hidden="true"><p style="font-size: 20px;">Bathing Care</p></i>
+                    </div> 
+                </div>
+                <div class="col-lg-3">
+                    <div class="contact">
+                        <p>CONTACT<br>
+                            reception@thewildvet.com.au<br>
+                            1300 WILD VET (1300 9453 83)<br></p>
+                    </div>
+                </div>
+                <div id= "hours"class="col-lg-3">
+                    <div class="hours">
+                       <p> OPENING HOURS<br> 
+                        Mon-Fri	08:00 am - 07:00 pm<br>
+                        Sat	09:00 am - 05:00 pm<br>
+                        Sun	09:00 am - 12:00 pm <br></p>
+                    </div>
+                </div>
+        </div> 
+    </div>
+</body>
+</html>
